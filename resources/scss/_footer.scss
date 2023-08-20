@@ -1,0 +1,53 @@
+@use 'vars' as *;
+
+
+    .bgc-footer {
+    height: 380px;
+    background-image: url('../images/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+
+
+.bgc-right {
+    background-image: url('../images/dc-logo-bg.png');
+    background-repeat: no-repeat;
+    width: 47%;
+    background-position: center;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+nav {
+    display: flex;
+    margin-top: 30px;
+}
+
+
+
+ul li a{
+    color: grey;
+    font-size: 0.8rem;
+}
+
+h1 {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.comicsnav,
+.dcnav,
+.sitesnav {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+}
