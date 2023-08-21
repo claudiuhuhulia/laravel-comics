@@ -15,4 +15,44 @@
             border: 1px solid white;
 
         }}
+
+  
+    
+}
+h1{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.serie-detail{
+    display: flex;
+}
+.price-btn{
+    height: 50px;
+    display: flex;
+    background-color: rgb(85 186 89);
+    margin-top: 10px;
+    margin-bottom: 10px;
+border-bottom: 1px solid black;
+}
+.price, .availability{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.price{
+    width: 80%;
+    border-right: 1px solid black;
+
+}
+.text{
+    width: 70%;
+}
+p{
+    display: inline;
+    color: white;
+}
+h4{
+    color: rgb(150 249 156);;
 }
