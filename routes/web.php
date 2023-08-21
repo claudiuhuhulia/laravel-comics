@@ -17,3 +17,9 @@ Route::get('/', function () {
     $series = config('series');
     return view('index', compact('series'));
 });
+
+Route::get('/serie', function () {
+    $series = config('series');
+    $serie = $series[0];
+    return view('serie', compact('series', 'serie'));
+});

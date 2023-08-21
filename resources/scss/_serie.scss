@@ -1,0 +1,18 @@
+.section-header{
+    height: 100px;
+    background-color: rgb(2 130 249);
+    figure {
+        height: 200px;
+        position: relative;
+        width: 236px;
+        img {
+            height: 141%;
+            object-fit: cover;
+            position: absolute;
+            top: -200px;
+            left: 0;
+            max-width: 80%;
+            border: 1px solid white;
+
+        }}
+}
