@@ -16,15 +16,20 @@
 
         }}
 
-  
-    
 }
 h1{
     text-transform: uppercase;
     margin-bottom: 10px;
+    color: rgb(0 63 94);;
 }
 .serie-detail{
     display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 50px;
+    img{
+        max-width: 120%;
+    }
 }
 .price-btn{
     height: 50px;
@@ -33,6 +38,10 @@ h1{
     margin-top: 10px;
     margin-bottom: 10px;
 border-bottom: 1px solid black;
+p{
+    display: inline;
+    color: white;
+}
 }
 .price, .availability{
     display: flex;
@@ -48,11 +57,12 @@ border-bottom: 1px solid black;
 }
 .text{
     width: 70%;
+   > p{
+        line-height: 2rem;
+        font-size: 1.2rem;
+    }
 }
-p{
-    display: inline;
-    color: white;
-}
+
 h4{
     color: rgb(150 249 156);;
 }

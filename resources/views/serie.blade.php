@@ -25,8 +25,11 @@
                     <p>Check availability </p>
                 </div>
             </div>
+            <p>{{ $serie['description'] }}</p>
         </div>
-        <div class="adv"></div>
+        <div class="adv">
+            <img src="{{ Vite::asset('resources/images/adv.jpg') }}" alt="">
+        </div>
 
 
     </div>
