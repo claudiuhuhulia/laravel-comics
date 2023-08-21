@@ -18,8 +18,10 @@ Route::get('/', function () {
     return view('index', compact('series'));
 });
 
-Route::get('/serie', function () {
+Route::get('/serie/{index}', function ($index) {
     $series = config('series');
-    $serie = $series[0];
-    return view('serie', compact('series', 'serie'));
+    $serie = $series[$index];
+    $artists = implode(',', $serie['artists']);
+    $writers = implode(',', $serie['writers']);
+    return view('serie', compact('series', 'serie', 'artists', 'writers'));
 });

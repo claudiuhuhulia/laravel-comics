@@ -12,12 +12,14 @@
              <div class="container">
                  <div class="card-container">
                      @foreach ($series as $serie)
-                         <div class="card">
-                             <figure>
-                                 <img src="{{ $serie['thumb'] }}" alt="serie">
-                             </figure>
-                             <h3> {{ $serie['series'] }} </h3>
-                         </div>
+                         <a href="{{ url("/serie/$loop->index") }}">
+                             <div class="card">
+                                 <figure>
+                                     <img src="{{ $serie['thumb'] }}" alt="serie">
+                                 </figure>
+                                 <h3> {{ $serie['series'] }} </h3>
+                             </div>
+                         </a>
                      @endforeach
 
                  </div>

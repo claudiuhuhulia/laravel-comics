@@ -31,6 +31,37 @@
             <img src="{{ Vite::asset('resources/images/adv.jpg') }}" alt="">
         </div>
 
+    </div>
+    <div class="bgc">
+        <div class="container info">
+            <div class="talent">
+                <h2>Talent</h2>
+                <div class="single-info blue">
+                    <h5>Art By:</h5>
+                    <p>{{ $artists }}</p>
+                </div>
+                <div class="single-info last blue">
+                    <h5>Written by:</h5>
+                    <p>{{ $writers }}</p>
 
+                </div>
+            </div>
+            <div class="specs">
+                <h2>Specs</h2>
+                <div class="single-info blue">
+                    <h5>Series:</h5>
+                    <p>{{ $serie['series'] }}</p>
+                </div>
+                <div class="single-info">
+                    <h5>U.S. Price:</h5>
+                    <p>{{ $serie['price'] }}</p>
+                </div>
+                <div class="single-info last">
+                    <h5>On Sale Date</h5>
+                    <p>{{ $serie['sale_date'] }}</p>
+                </div>
+            </div>
+
+        </div>
     </div>
 @endsection
